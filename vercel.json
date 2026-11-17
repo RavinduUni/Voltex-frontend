@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://YOUR-BACKEND-HOST/api/:path*" },
+    { "source": "/api/:path*", "destination": "http://voltex-backend-env.eba-iyuzr5pv.ap-south-1.elasticbeanstalk.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
